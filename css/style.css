@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page {
+	height: 100%;
+	background-color: #808000;
+}
+
+.page__container {
+	background: url('../img/pngwing.com.png') no-repeat;
+	background-size: cover;
+	padding: 45px 24px;
+
+}
+
+
+@media (max-width:420px) {
+	.page__menu {
+		height: 100vh;
+		width: 100vw;
+	}
+
+	.page__container {}
+
+}
+
+
+
+
+
+.title__button {
+	box-sizing: border-box;
+	height: 64px;
+	background: #FFC0CB;
+	border: 5px solid #000000;
+	margin: 24px 0;
+}
+
+.menu__title {
+	padding-top: 5px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 1.22;
+	/* 44/36 */
+	color: #000000;
+	text-align: center;
+}
+
+.menu__navigation {
+	background: #FFC0CB;
+	border: 4px solid #000000;
+	margin: 20px 0;
+}
+
+.navigation__icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 24px;
+	gap: 8px;
+}
+
+
+.menu__complexity {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
+	margin: 24px 0;
+}
+
+.complexity__class {
+	box-sizing: border-box;
+	width: 24px;
+	height: 24px;
+	background: #FFC0CB;
+	border: 2px solid #000000;
+	padding-top: 2px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.question__button {
+	box-sizing: border-box;
+	height: 48px;
+	background: #FFC0CB;
+	border: 4px solid #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 24px 0 32px 0;
+}
+
+.question__text {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.25;
+	/* 15/12 */
+	padding-bottom: 2px;
+}
+
+.option__buttons {
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	gap: 16px;
+	height: 240px;
+	margin: 20px 0 16px 0;
+}
+
+.option__buttons div {
+	box-sizing: border-box;
+	height: 48px;
+	background: #F5F5DC;
+	border: 4px solid #000000;
+	text-align: center;
+	padding-top: 12px;
+	font-size: 15px;
+
+}
+
+.next__button {
+	box-sizing: border-box;
+	height: 48px;
+	background: #FFC0CB;
+	border: 4px solid #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 24px 0 39px 0;
+}
+
+.next__text {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.25;
+	/* 15/12 */
+	padding-bottom: 2px;
+}
